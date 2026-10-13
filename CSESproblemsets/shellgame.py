@@ -8,12 +8,3 @@ for _ in range(n):
     shellatpos[a], shellatpos[b] = shellatpos[b], shellatpos[a]
     counter[shellatpos[g]] += 1
 print(max(counter), file=open("shell.out", "w"))
-
-
-
-
-
-
-
-
-
