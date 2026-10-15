@@ -5,8 +5,13 @@ for letter in range(len(s) - 1): // Need -1 as without it can lead to index erro
 Using .lower() returns a new string so need to set it to a variable even if its same variable that I am currently using.
 Using not in will if a value is absent from a collection while something like != will only check if the values are different. Ex: for item in something: or for item not in something:
 
-
-
+can do something like 
+test = [
+    a + b,
+    a + c,
+    a + b
+]
+print(max(test)) // This will find which one prints the highest value based off what is given.
 
 
 
