@@ -12,9 +12,8 @@ test = [
     a + b
 ]
 print(max(test)) // This will find which one prints the highest value based off what is given.
-
-
-
+// Reverse a string can be easily done using ::-1 ex: x = input()
+x[::-1] will give the string but in reverse.
 
 
 
